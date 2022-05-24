@@ -39,8 +39,6 @@
 
 ![screenshot](devchallenge001.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
 - The Demo is above ^^
 - This was a fun project. Didn't take too long. If you're new to react this is pretty beginner friendly project. 
 - I learned the syntax of adding multiple classes to a single component in react. 
