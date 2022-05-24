@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DevChallenge-Button/static/css/main.21f09463.css",
+    "main.js": "/DevChallenge-Button/static/js/main.736eb171.js",
+    "index.html": "/DevChallenge-Button/index.html",
+    "main.21f09463.css.map": "/DevChallenge-Button/static/css/main.21f09463.css.map",
+    "main.736eb171.js.map": "/DevChallenge-Button/static/js/main.736eb171.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21f09463.css",
+    "static/js/main.736eb171.js"
+  ]
+}
