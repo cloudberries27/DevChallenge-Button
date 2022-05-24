@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Plus+Jakarta+Sans&display=swap');
+
+.material-icons {
+  font-size: 16px; 
+  margin: 0px 5px; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div.buttons{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+p{
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  margin-top: 3em;
+}
+button{
+  margin: 5px 10px;
+  color: #3f3f3f;
+  background-color: #e0e0e0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  padding: 1em 2em;
+  border-radius: 7px;
+  border:none;
+  width: fit-content;
+}
+button:hover, button:focus{
+  background-color: #aeaeae;
+}
+
+
+/* DESIGNS */
+button.outline{
+  background-color: white;
+  border: 2px solid #2962ff;
+  color: #2962ff;
+}
+button.outline:hover, button.outline:focus{
+  background-color: #eaefff;
+}
+
+button.text{
+  color: #2962ff;
+  background-color: white;
+}
+
+
+/* SPAN */
+button.icon, button.sm, button.md, button.lg{
+  background-color: #2962ff;
   color: white;
+  fill:white;
+}
+button.icon:hover, button.sm:hover, button.md:hover, button.lg:hover {
+  background-color: #0039cb;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* SIZES */
+button.sm{
+  padding: 0.5em 1em;
+}
+button.md{
+  padding: 0.75em 1.5em;
+}
+button.lg{
+  padding: 1em 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* COLORS */
+button.default{
+  background-color: #e0e0e0;
+}
+button.default:hover{
+  background-color: #aeaeae;
+}
+button.primary{
+  background-color: #2962ff;
+  color: white;
+  fill:white;
+}
+button.primary:hover{
+  background-color: #0039cb;
+}
+button.secondary{
+  background-color: #455a64;
+  color: white;
+  fill:white;
+}
+button.secondary:hover{
+  background-color: #1c313a;
+}
+button.danger{
+  background-color: #d32f2f;
+  color: white;
+  fill:white;
+}
+button.danger:hover{
+  background-color: #9a0007;
+}
+
+
+
+
+button.text:hover, button.text:focus{
+  background-color: #eaefff;
+}
+button:disabled {
+  color: #9e9e9e;
+  pointer-events: none;
+}
+button.no-shadow{
+  background-color: #3d5afe;
+  color:white;
 }
