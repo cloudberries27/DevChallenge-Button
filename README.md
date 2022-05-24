@@ -44,7 +44,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - The Demo is above ^^
 - This was a fun project. Didn't take too long. If you're new to react this is pretty beginner friendly project. 
 - I learned the syntax of adding multiple classes to a single component in react. 
-- Quote of the Day: "You know why developers like dark mode? Because light attracts bugs...ha I'm so funny 😂😐😥
+- QOTD: "You know why developers like dark mode? Because light attracts bugs!"...😂😐😥
 
 ### Built With
 
