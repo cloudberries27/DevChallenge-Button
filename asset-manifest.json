@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DevChallenge-Button/static/css/main.21f09463.css",
-    "main.js": "/DevChallenge-Button/static/js/main.736eb171.js",
+    "main.js": "/DevChallenge-Button/static/js/main.1472c49a.js",
     "index.html": "/DevChallenge-Button/index.html",
     "main.21f09463.css.map": "/DevChallenge-Button/static/css/main.21f09463.css.map",
-    "main.736eb171.js.map": "/DevChallenge-Button/static/js/main.736eb171.js.map"
+    "main.1472c49a.js.map": "/DevChallenge-Button/static/js/main.1472c49a.js.map"
   },
   "entrypoints": [
     "static/css/main.21f09463.css",
-    "static/js/main.736eb171.js"
+    "static/js/main.1472c49a.js"
   ]
 }
